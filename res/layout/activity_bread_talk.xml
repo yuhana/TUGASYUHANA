@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="openBreadTalk"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.emyu.wtcshops.BreadTalkActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BreadTalk" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/b2" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BreadTalk didirikan oleh George Quek, seorang warga keturunan Cina, yang tumbuh di Singapura. Tidak seperti kisah sukses kebanyakan, Quek bukanlah orang yang pandai. Di sekolah, dia selalu mendapat nilai merah lebih banyak dari nilai biru. Semasa kecil, Quek tinggal di sebuah rumah yang terbuat dari kayu, ayahnya seorang petani yang menjadi nelayan, ibunya seorang ibu rumah tangga.
+
+Sewaktu
+sekolah, Quek hanya mendapat uang saku 20 sen tiap hari. Biasanya 16 sen habis dipakai untuk naik bus. Namun terkadang Quek lebih memilih berjalan kaki ke sekolah selama 45 menit bolak balik, dan menyimpan uang sakunya untuk membeli semangkuk mie seharga 20 sen. Sejak kecil, Quek sudah menunjukkan bakat menjadi seorang wirausaha; dengan bakat seninya, dia sering mendapat uang, yang selalu ia tabung.
+
+Setelah
+lulus SMP, Quek memutuskan untuk melanjutkan ke sekolah seni. Dan akhirnya bergabung di ketentaraan. Setelah itu, Quek merantau ke Taiwan, dan memulai berjualan permen ‘Dragon’ pada tahun 1982. Sebelas tahun sesudahnya, Quek beralih ke bisnis foodcourt, dan semua penghasilannya sebesar 500.000 dolar singapura dia investasikan untuk memulai BreadTalk pada Juli 2000.
+
+Secara luar biasa, hanya dalam
+waktu kurang dari 7 tahun, penjualan BreadTalk mencapai 100 juta dolar Singapura. BreadTalk sekarang memiliki lebih dari 200 outlet di Singapura, Bangkok, Dubai, Hong Kong, China, Malaysia, Indonesia, dan sebagainya.
+
+Dibalik kesuksesannya, Quek selalu berterima kasih kepada orang tuanya yang memberi dia kebebasan untuk selalu mengembangkan kreativitasnya, selama dia melakukannya dengan penuh kesadaran akan konsekuensinya. Kunci sukses yang diajarkan orang tuanya adalah menjadi pribadi yang penuh perhatian, bisa bekerja sama, dapat diandalkan, jujur, dan menghormati orang lain. Dengan begitu dia akan mendapatkan kepercayaan dari orang lain. Dari situ akan ada banyak kesempatan yang datang dengan pintu yang terbuka. Hal ini juga yang selalu Quek ajarkan kepada anak-anaknya.
+
+Pesan
+Quek bagi para wirausahawan adalah, “Jika kau hanya punya sedikit yang dipertaruhkan, kau harus mencoba berkembang, dan menjadi seorang wirausahawan.
+Dunia ini dinamis, kau harus bisa fleksibel dan bisa beradaptasi pada perubahan. Belajar adalah proses yang tiada habisnya. Jika kau berhenti belajar, kau akan ketinggalan dalam perlombaan kehidupan.
+Lokasi BreadTalk di Lantai Dasar didepan J'Co Donuts WTC Jambi" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
